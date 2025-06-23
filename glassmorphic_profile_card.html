@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphic Profile Card</title>
+    <style>
+        body{
+            height: 100vh;
+             background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 77%, rgba(252, 176, 69, 1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+        }
+        .card {
+    height: 500px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1); /* translucent glass look */
+    border-radius: 20px;
+    backdrop-filter: blur(15px); /* core glass effect */
+    -webkit-backdrop-filter: blur(15px); /* Safari support */
+    border: 6px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(198, 66, 210, 0.37);
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    color: white; /* better contrast */
+}
+
+        .card img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            padding: 0px ;
+            
+            margin-top: 40px;
+            box-shadow: 0 0 0 3px rgb(47, 47, 93), 0 0 15px rgb(57, 57, 132), 0 0 30px #00f;
+            margin-bottom: 30px;
+        }
+        .card h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .card p{
+            margin-top: 20px
+            ;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+   <section class="card">
+       <img src="profile-icon-white-background_941097-161655.avif" alt="profile-icon">
+       <h2>Ladi Bhumika</h2>
+       <p>Web Developer</p>
+   </section> 
+</body>
+</html>

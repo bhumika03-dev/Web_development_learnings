@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+       
+        body {
+            background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(37, 22, 131, 1) 0%, rgba(97, 170, 231, 1) 90%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .card {
+            width: 400px;
+            height: 500px;
+            border-radius: 10%;
+            background-color: aliceblue;
+            padding: 30px;
+            position: relative;
+            text-align: center;
+             box-shadow: 5px 6px 20px  #8E2DE2;
+            
+        }
+        .card img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            margin-top: 40px;
+            box-shadow: 0px 0 0 3px black;
+        }
+        .card img:hover{
+            box-shadow: 0 0 0 3px rgb(211, 46, 46);
+        }
+        .card h2{
+             font-size: 40px;
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .card p{
+            font-size: 30px;
+        }
+        .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+    </style>
+</head>
+
+<body>
+    <section class="card">
+      
+        <img src="profile-icon-white-background_941097-162100.avif" alt="Phofile Photo">
+        <h2>Ladi Bhumika</h2>
+        <p>Web Developer</p>
+       
+    </section>
+</body>
+
+</html>
