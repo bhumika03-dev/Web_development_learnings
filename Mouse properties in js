@@ -7,7 +7,7 @@
     <style>
         .box{
             position: absolute;
-            transition: all cubic-bezier(0.19,1,0.22,1) 2s;
+            transition: all cubic-bezier(0.19,1,0.22,1) 3s;
             height:200px;
             width:200px;
             background-color: blue;
